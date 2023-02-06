@@ -1,0 +1,46 @@
+
+body{
+    background-image: url("../img/img-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: auto;
+
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(76, 97, 188);
+    overflow: auto;
+
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: #000;
+}
+
+:active{
+    background-color:#04AA6D;
+    
+}
+
+@media screen and (max-width: 500px){
+    .navbar a{
+        float: none;
+        display: block;
+    }
+    .form{
+        float: none;
+        display: block;
+    }
+
+}
